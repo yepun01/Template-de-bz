@@ -1,0 +1,39 @@
+{
+    "Roblox Template": {
+        "prefix": "luatp",
+        "body": [
+            "--[[\r",
+            "    Author: yepun01\r",
+            "    Creation Date: $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR\r",
+            "\r",
+            "    Description:\r",
+            "        No description provided.\r",
+            "\r",
+            "    Documentation:\r",
+            "        No documentation provided.\r",
+            "--]]\r",
+            "\r",
+            "--= Root =--\r",
+            "local $TM_FILENAME_BASE = { }\r",
+            "\r",
+            "--= Roblox Services =--\r",
+            "\r",
+            "--= Modules & Config =--\r",
+            "\r",
+            "--= Constants =--\r",
+            "\r",
+            "--= Variables =--\r",
+            "\r",
+            "--= Functions =--\r",
+            "\r",
+            "--= Job API =--\r",
+            "\r",
+            "function $TM_FILENAME_BASE:run()\r",
+            "\r",
+            "end\r",
+            "\r",
+            "return $TM_FILENAME_BASE"
+        ],
+        "description": "My Roblox template for all my lua module"
+    }
+}

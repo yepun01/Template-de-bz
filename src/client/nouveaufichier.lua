@@ -1,5 +1,5 @@
 --[[
-    Author: Rask/AfraiEda
+    Author: yepun01
     Creation Date: 24/11/2022
 
     Description:
@@ -10,7 +10,7 @@
 --]]
 
 --= Root =--
-local testserver = {}
+local nouveaufichier = { }
 
 --= Roblox Services =--
 
@@ -23,13 +23,10 @@ local testserver = {}
 --= Functions =--
 
 --= Job API =--
-function testserver:run()
-    testserver:salut("pupute")
-    print(testserver)
-    print("salut c le server")
-end
-function testserver:salut(phrase)
-    print(phrase)
+
+function nouveaufichier:run() 
+    print("lua")
+
 end
 
-return testserver
+return nouveaufichier
