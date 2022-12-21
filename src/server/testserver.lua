@@ -24,12 +24,9 @@ local testserver = {}
 
 --= Job API =--
 function testserver:run()
-    testserver:salut("pupute")
-    print(testserver)
-    print("salut c le server")
 end
 function testserver:salut(phrase)
-    print(phrase)
+
 end
 
 return testserver

@@ -24,8 +24,7 @@ local nouveaufichier = { }
 
 --= Job API =--
 
-function nouveaufichier:run() 
-    print("lua")
+function nouveaufichier:run()
 
 end
 

@@ -25,7 +25,6 @@ local testclient = { }
 --= Job API =--
 
 function testclient:run()
-    print("salut c le client")
 end
 
 return testclient
