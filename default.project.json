@@ -1,23 +1,37 @@
 {
-  "name": "Cartoon Simulator",
+  "name": "Rayan",
   "tree": {
     "$className": "DataModel",
 
     "ReplicatedStorage": {
       "Shared": {
-        "$path": "src/shared"
+        "$path": "src/Shared"
       },
       "Client": {
-        "$path": "src/client"
+        "$path": "src/Client"
       },
-      "Framework": {
-        "$path": "Framework"
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Core": {
+          "$path": "Framework/Client"
+        }
       }
     },
 
     "ServerScriptService": {
       "Server": {
-        "$path": "src/server"
+        "$path": "src/Server"
+      },
+      "Core": {
+        "$path": "Framework/Server"
+      },
+      "ServerPackages": {
+        "$path": "ServerPackages"
       }
     }
   }

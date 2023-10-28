@@ -6,6 +6,11 @@ realm = "shared"
 
 [dependencies]
 Knit = "sleitnick/knit@^1.5"
+roact = "roblox/roact@1.4.4"
+Component = "sleitnick/component@1.1.0"
+signal = "sleitnick/signal@1.5.0"
+enum = "raphtalia/enum@1.0.0"
+promise = "evaera/promise@4.0.0"
 
 [server-dependencies]
 profileservice = "firebird702/profileservice@1.0.1"
