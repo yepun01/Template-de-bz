@@ -28,7 +28,7 @@ local task3 = Knit.CreateService {
 --= Job API =--
 
 local function upVisual(part)
-    if part.Anchored then 
+    if part.Anchored then
         part.BrickColor = BrickColor.new("Bright red")
 		part.Material = Enum.Material.DiamondPlate
     else
@@ -44,21 +44,22 @@ end
 
 
 function task3:KnitStart()
-    local part = Instance("Part")
-    part.Position = Vector3.new(5, 10, 0)
-    part.Size = Vector3.new(2, 2, 2)
-    part.Anchored = true
-    part.Parent = workspace
+    -- local part = Instance.new("Part")
+    -- part.Position = Vector3.new(5, 10, 0)
+    -- part.Size = Vector3.new(2, 2, 2)
+    -- part.Anchored = true
+    -- part.Parent = workspace
 
-    local cd = Instance.new("ClickDetector", part)
+    -- local cd = Instance.new("ClickDetector", part)
 
-    upVisual(part)
-    cd.MouseClick:Connect(onToggle)
+    -- upVisual(part)
+    -- cd.MouseClick:Connect(function()
+    --     onToggle(part)
+    -- end)
 end
 
 function task3:KnitInit()
     warn('• task3 Initiated •')
-    print("ta mere la pute")
 end
 
 --= Methods =--
