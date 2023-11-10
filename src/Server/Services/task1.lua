@@ -1,6 +1,6 @@
 --[[
-    Author: Rask/AfraiEda
-    Creation Date: 28/10/2023
+    Author: yepun01
+    Creation Date: 09/11/2023
 
     Description:
         No description provided.
@@ -16,9 +16,8 @@ local ReplicatedStorage = game:GetService('ReplicatedStorage')
 
 --= Framework =--
 local Knit = require(ReplicatedStorage.Packages.Knit)
-local Enum = require(ReplicatedStorage.Packages.enum)
-local test = Knit.CreateService {
-    Name = "test",
+local task1 = Knit.CreateService {
+    Name = "task1",
     Client = {},
 }
 --= Constants =--
@@ -27,14 +26,18 @@ local test = Knit.CreateService {
 
 --= Job API =--
 
-function test:KnitStart()
-    print('la ca marche ou quoiiiii')
+function task1:KnitStart()
+    local part = Instance.new("Part")
+    part.Anchored = true
+    part.BrickColor = BrickColor.new("Really blue")
+    part.Parent = workspace
+    print("ta mere la pute")
 end
 
-function test:KnitInit()
-    warn('• test Initiated •')
+function task1:KnitInit()
+    warn('• task1 Initiated •')
 end
 
 --= Methods =--
 
-return test
+return task1
